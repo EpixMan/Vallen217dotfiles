@@ -1,0 +1,5 @@
+require("core.settings")
+require("core.keymap")
+require("core.packer-config")
+require("core.plugin_config")
+require("core.theme_config")

@@ -1,0 +1,69 @@
+window:
+  padding:
+    x: 8
+    y: 8
+  dynamic_padding: false
+  class:
+    instance: Alacritty
+    general: Alacritty
+  opacity: 0.8
+
+    #background_opacity: 0.3
+
+dynamic_title: false
+
+scrolling:
+  history: 500
+  multiplier: 3
+
+font:
+  normal:
+    family: Hack Nerd Font Mono
+    style:  Regular
+  bold:
+    family: Hack Nerd Font Mono
+    style:  Bold
+  italic:
+    family: Hack Nerd Font Mono
+    style:  Italic
+  bold_italic:
+    family: Hack Nerd Font Mono
+    style: Bold Italic
+  size: 10
+
+draw_bold_text_with_bright_colors: true
+
+colors:
+  primary:
+    background: "#050810"
+    foreground: "#e5f4f8"
+  normal:
+    black:   "#050810"
+    red:     "#f7617f"
+    green:   "#7cdca3"
+    yellow:  "#e1d873"
+    blue:    "#5a91ff"
+    magenta: "#a086f7"
+    cyan:    "#54d2e1"
+    white:   "#f0f0ff"
+  bright:
+    black:   "#1c1f2c"
+    red:     "#ff6987"
+    green:   "#8af5b5"
+    yellow:  "#f5eb82"
+    blue:    "#73a2ff"
+    magenta: "#bb9af7"
+    cyan:    "#5ee6f0"
+    white:   "#ffffff"
+
+cursor:
+  style: Underline
+
+selection:
+  save_to_clipboard: false
+
+key_bindings:
+  - { key: V,        mods: Control|Shift, action: Paste            }
+  - { key: C,        mods: Control|Shift, action: Copy             }
+  - { key: Insert,   mods: Shift,         action: PasteSelection   }
+  - { key: Tab,      mods: Control,       action: SpawnNewInstance }
