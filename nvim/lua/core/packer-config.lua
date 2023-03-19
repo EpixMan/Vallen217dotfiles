@@ -2,7 +2,8 @@ local ensure_packer = function()
     local fn = vim.fn
     local install_path = fn.stdpath('data')..'/site/pack/packer/start/packer.nvim'
     if fn.empty(fn.glob(install_path)) > 0 then
-        fn.system({'git', 'clone', '--depth', '1', 'https://github.com/wbthomason/packer.nvim', install_path})
+        fn.system({'git', 'clone', '--depth', '1',
+        'https://github.com/wbthomason/packer.nvim', install_path})
         vim.cmd [[packadd packer.nvim]]
     return true
 end
@@ -18,14 +19,18 @@ return require('packer').startup(function(use)
     use 'nvim-lualine/lualine.nvim'         -- aesthetics
     use 'xiyaowong/nvim-transparent'        -- KDE style aesthetics
     use 'nvim-treesitter/nvim-treesitter'   -- syntax highlighter
-    use 'nvim-treesitter/nvim-treesitter-textobjects' -- additional text objects for treesitter
-    use 'sar/illuminate.nvim'               -- highlights other uses of the word under the cursor
-    use 'hrsh7th/nvim-cmp'                  -- autocompletion plugin.
+    use 'nvim-treesitter/nvim-treesitter-textobjects'   -- additional text objects for treesitter
     use 'lukas-reineke/virt-column.nvim'    -- thin colorcolumn line
     use 'folke/neodev.nvim'                 -- lsp configurations for nvim lua API
-    use 'hrsh7th/cmp-nvim-lsp'
+    use 'lukas-reineke/indent-blankline.nvim'           -- line indentation guides
+    use 'sar/illuminate.nvim'               -- highlights other uses of the word under the cursor
+    use 'hrsh7th/cmp-nvim-lsp'              -- autocompletion
+    use 'hrsh7th/cmp-buffer'
+    use 'hrsh7th/cmp-path'
+    use 'hrsh7th/cmp-cmdline'
+    use 'hrsh7th/nvim-cmp'
+    use 'L3MON4D3/LuaSnip'                  -- snippets
     use 'saadparwaiz1/cmp_luasnip'
-    use 'L3MON4D3/LuaSnip'                  -- Snippets plugin.
     use {                                   -- fuzzy finder
     'nvim-telescope/telescope.nvim',
     tag = '0.1.x',
