@@ -1,0 +1,6 @@
+configuration {
+  font: "ShureTechMono Nerd Font";
+  show-icons: true;
+  icon-theme: "Papirus";
+}
+@theme "~/.config/rofi/theme.rasi"
