@@ -9,7 +9,9 @@ window:
   class:
     instance: Alacritty
     general: Alacritty
-  opacity: 1 # 0.78
+    opacity: 1.0
+      #opacity: 0.8
+
 
 dynamic_title: false
 
@@ -39,23 +41,23 @@ colors:
     background: "#12121e"
     foreground: "#e5f4f8"
   normal:
-    black:   "#181824"
-    red:     "#f7617f"
-    green:   "#75d09a"
-    yellow:  "#e1d873"
-    blue:    "#5a91ff"
-    magenta: "#a086f7"
-    cyan:    "#54d2e1"
-    white:   "#f0f0ff"
+    black:   "#1c1f2c"
+    red:     "#ff4b66"
+    green:   "#7cdea3"
+    yellow:  "#f3f395"
+    blue:    "#5fa6ff"
+    magenta: "#9c85f7"  # purple
+    cyan:    "#5fd6e1"
+    white:   "#e5f4f8"
   bright:
     black:   "#26263a"
-    red:     "#ff6987"
+    red:     "#ff6378"
     green:   "#8af5b5"
-    yellow:  "#f5eb82"
-    blue:    "#73a2ff"
-    magenta: "#bb9af7"
-    cyan:    "#5ee6f0"
-    white:   "#ffffff"
+    yellow:  "#ecf3aa"
+    blue:    "#82aeff"
+    magenta: "#afaaf7" # purple-alt
+    cyan:    "#95dde1"
+    white:   "#f0f0ff"
 
 cursor:
   style: Underline

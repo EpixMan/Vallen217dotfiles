@@ -1,1 +1,1 @@
-require("core.theme_config.tokyonight")
+require("core.theme_config.nightfox")
