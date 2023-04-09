@@ -9,8 +9,7 @@ window:
   class:
     instance: Alacritty
     general: Alacritty
-    opacity: 1.0
-      #opacity: 0.8
+    opacity: 0.8
 
 
 dynamic_title: false
@@ -42,7 +41,7 @@ colors:
     foreground: "#e5f4f8"
   normal:
     black:   "#1c1f2c"
-    red:     "#ff4b66"
+    red:     "#f9566c"
     green:   "#7cdea3"
     yellow:  "#f3f395"
     blue:    "#5fa6ff"
@@ -51,7 +50,7 @@ colors:
     white:   "#e5f4f8"
   bright:
     black:   "#26263a"
-    red:     "#ff6378"
+    red:     "#ff6a7e"
     green:   "#8af5b5"
     yellow:  "#ecf3aa"
     blue:    "#82aeff"

@@ -1,17 +1,17 @@
 * {
-  bg0     : #12121e;
-  bg1     : #1e1e2f;
+  bg0     : #14141f;
+  bg1     : #1c1f2c;
   bg2     : #26263a;
   bg3     : #32324e;
   fg0     : #e5f4f8;
   fg1     : #d0dbff;
   fg2     : #c8d3f5;
-  red     : #f7617f;
-  green   : #75d09a;
-  yellow  : #e1d873;
-  blue    : #5a91ff;
-  purple  : #9c93f7;
-  cyan    : #54d2e1;
+  red     : #f9566c;
+  green   : #7cdea3;
+  yellow  : #f3f395;
+  blue    : #5fa6ff;
+  purple  : #9c85f7;
+  cyan    : #5fd6e1;
 
   accent: @purple;
   urgent: @yellow;

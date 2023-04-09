@@ -51,9 +51,9 @@ require('nightfox').setup({
           fg3 =     "#465678",
           sel0 =    "#13151e",
           sel1 =    "#13151e",
-          comment = "#444d6b",
+          comment = "#495373",
           black =   "#14141f",
-          red =     "#ff4b66",
+          red =     "#f9566c",
           green =   "#7cdea3",
           yellow =  "#5fd6e1",	--cyan
           blue =    "#5fa6ff",

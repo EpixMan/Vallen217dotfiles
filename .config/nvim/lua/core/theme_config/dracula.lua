@@ -2,37 +2,40 @@ local dracula = require("dracula")
 dracula.setup({
   -- customize dracula color palette
   colors = {
-    bg = "#050810",
-    fg = "#e1ecff",
-    --selection = "#0a121f",
-    --comment = "#e5f4f8",
-    red = "#f7617f",
-    orange = "#ff9b6c", -- orange
-    yellow = "#e1d873",
-    blue = "#5a91ff",
-    green = "#7cdca3",
-    purple = "#a086f7",
-    cyan = "#54d2e1",
-    pink = "#d53686",
-    white = "#e1ecff",
-    bright_red = "#ff6987",
-    bright_green = "#8af5b5",
-    bright_yellow = "#f5eb82",
-    bright_blue = "#73a2ff",
-    bright_magenta = "#bb9af7",
-    bright_cyan = "#5ee6f0",
-    bright_white = "#ffffff",
-    menu = "#050810",
-    visual = "#3E4452",
-    gutter_fg = "#4B5263",
-    nontext = "#3B4048",
-  },
+    bg =		"#14141f",
+    fg =		"#e54f48",
+    selection =	"#13151e",
+    comment =	"#495373",
+	menu =		"#14141f",
+    visual =	"#ffffff",
+    gutter_fg =	"#e5f4f8",
+    nontext =	"#e5f4f8",
+
+	red =		"#f9566c",
+	green =		"#7cdea3",
+	yellow =	"#f3f395",
+    orange =	"#ffae4c",
+    blue =		"#5fa6ff",
+    cyan =		"#5f6de1",
+    purple =	"#9c85f7",
+	pink =		"#d53686",
+    white =		"#e5f4f8",
+
+	bright_red =	"#ff6a7e",
+    bright_green =	"#8af5b5",
+    bright_yellow = "#ecf3aa",
+    bright_blue =	"#82aeff",
+    bright_cyan =	"#8be1e1",
+	bright_magenta ="#afaaf7", -- purple-alt
+    bright_white =	"#f0f0ff",
+      },
+
   -- show the '~' characters after the end of buffers
   show_end_of_buffer = true, -- default false
   -- use transparent background
   transparent_bg = false, -- default false
   -- set custom lualine background color
-  lualine_bg_color = "#050810", -- default nil
+  lualine_bg_color = "#14141f", -- default nil
   -- set italic comment
   italic_comment = true, -- default false
   -- overrides the default highlights see `:h synIDattr`
