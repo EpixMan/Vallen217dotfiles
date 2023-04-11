@@ -38,25 +38,25 @@ draw_bold_text_with_bright_colors: true
 colors:
   primary:
     background: "#12121e"
-    foreground: "#e5f4f8"
+    foreground: "#f4f7ff"
   normal:
-    black:   "#1c1f2c"
-    red:     "#f9566c"
-    green:   "#7cdea3"
-    yellow:  "#f3f395"
-    blue:    "#5fa6ff"
-    magenta: "#9c85f7"  # purple
-    cyan:    "#5fd6e1"
-    white:   "#e5f4f8"
+    black:   "#222236"
+    red:     "#f1547b"
+    green:   "#7cdea0"
+    yellow:  "#fdfd95"
+    blue:    "#749fee"
+    magenta: "#938dde"
+    cyan:    "#7ff3ef"
+    white:   "#e4e7ff"
   bright:
-    black:   "#26263a"
-    red:     "#ff6a7e"
-    green:   "#8af5b5"
-    yellow:  "#ecf3aa"
-    blue:    "#82aeff"
-    magenta: "#afaaf7" # purple-alt
-    cyan:    "#95dde1"
-    white:   "#f0f0ff"
+    black:   "#29293f"
+    red:     "#f6668a"
+    green:   "#83eaa9"
+    yellow:  "#fafca8"
+    blue:    "#83acf6"
+    magenta: "#a09ae7"
+    cyan:    "#91f5f3"
+    white:   "#f4f7ff"
 
 cursor:
   style: Underline
