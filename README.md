@@ -1,3 +1,3 @@
-![i3-rice_1](https://user-images.githubusercontent.com/94763660/231411379-5fe07ee1-210e-4ba7-894b-98d208449978.png)
-![i3-rice_2](https://user-images.githubusercontent.com/94763660/231411404-0a679655-2a12-4623-bdbd-37322bbba028.png)
-![i3-rice_3](https://user-images.githubusercontent.com/94763660/231411419-a5dcfa90-956d-45a0-becf-b10d19284389.png)
+![i3-rice_1](https://user-images.githubusercontent.com/94763660/231449107-9eed73e3-407d-4db8-af1c-cb6663547e83.png)
+![i3-rice_2](https://user-images.githubusercontent.com/94763660/231449123-0c74cde8-e207-42f2-bf43-0b39f7667ecd.png)
+![i3-rice_3](https://user-images.githubusercontent.com/94763660/231449129-f3b37657-f0a8-4a0c-87b6-2dd270391c23.png)
