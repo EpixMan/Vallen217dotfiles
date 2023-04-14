@@ -21,17 +21,7 @@ require("tokyonight").setup({
   hide_inactive_statusline = false, -- Enabling this option, will hide inactive statuslines and replace them with a thin border instead. Should work with the standard **StatusLine** and **LuaLine**.
   dim_inactive = false, -- dims inactive windows
   lualine_bold = false, -- When `true`, section headers in the lualine theme will be bold
-  colors = {
-      bg = "#14141f",
-      fg = "#35f4f8",
-      red = "#f7617f",
-      green = "#7cdca3",
-      yellow = "#e1d873",
-      blue = "#5a91ff",
-      purple = "#a086f7",
-      cyan = "#5ee6f0",
-      white = "#e1ecff"
-  },
+  colors = {},
   --- You can override specific color groups to use other groups or a hex color
   --- function will be called with a ColorScheme table
   ---@param colors ColorScheme

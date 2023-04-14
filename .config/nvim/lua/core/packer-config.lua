@@ -78,8 +78,6 @@ return require('packer').startup(function(use)
     use 'folke/tokyonight.nvim'
     use { 'catppuccin/nvim', as = 'catppuccin' }
     use 'EdenEast/nightfox.nvim'
-    use 'Mofiqul/dracula.nvim'
-    use 'rafamadriz/neon'
 
     -- automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins

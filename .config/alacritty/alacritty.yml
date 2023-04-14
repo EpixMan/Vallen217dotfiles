@@ -9,7 +9,7 @@ window:
   class:
     instance: Alacritty
     general: Alacritty
-    opacity: 0.8
+    opacity: 1.0
 
 
 dynamic_title: false
@@ -45,8 +45,8 @@ colors:
     green:   "#7cdea0"
     yellow:  "#fdfd95"
     blue:    "#749fee"
-    magenta: "#928be2"
     cyan:    "#7ff3ef"
+    magenta: "#928be2"
     white:   "#e4e7ff"
   bright:
     black:   "#29293f"
@@ -54,8 +54,8 @@ colors:
     green:   "#83eaa9"
     yellow:  "#fafca8"
     blue:    "#83acf6"
-    magenta: "#978fec"
     cyan:    "#91f5f3"
+    magenta: "#978fec"
     white:   "#f4f7ff"
 
 cursor:
@@ -68,4 +68,3 @@ key_bindings:
   - { key: V,        mods: Control|Shift, action: Paste            }
   - { key: C,        mods: Control|Shift, action: Copy             }
   - { key: Insert,   mods: Shift,         action: PasteSelection   }
-    #  - { key: Tab,      mods: Control,       action: SpawnNewInstance }
